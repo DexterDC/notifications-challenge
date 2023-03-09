@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Notifications</title>
+</head>
+<body class="bg-[hsl(210,60%,98%)] font-sans flex flex-col justify-center items-center min-h-screen">
+    <main class="bg-white p-4 rounded-lg w-96 mt-8 lg:w-[43rem]">
+        <header class="flex justify-between items-center mt-4">
+            <div class="flex justify-center items-center gap-2">
+                <p class="font-bold text-2xl">Notifications</p>
+                <p class="bg-[hsl(219,85%,26%)] text-white rounded-lg w-8 h-8 font-bold flex justify-center items-center number">3</p>
+            </div>
+            <a href="#" class="text-slate-500 hover:text-[hsl(219,85%,26%)]" id="markRead">Mark all as read</a>
+        </header>
+        <div class="flex justify-center">
+            <div class="flex flex-col">
+                <div class="flex items-center gap-4 bg-[hsl(210,60%,98%)] p-4 mt-8 rounded-lg bgColor">
+                    <img src="assets/images/avatar-mark-webber.webp" alt="avatar-mark-webber" class="w-12">
+                    <p class="text-slate-500 text-sm">
+                        <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Mark Webber</a>
+                        reacted to your recent post
+                        <a href="#" class="text-slate-500 hover:text-[hsl(219,85%,26%)] font-bold">My first tournament
+                            today!</a>
+                        <span class="inline-block bg-red-500 rounded-full w-3 h-3 ml-2"></span><br>
+                        <span class="text-slate-400 w-80">1m ago</span>
+                    </p>
+                </div>
+                <div class="flex items-center gap-4 bg-[hsl(210,60%,98%)] p-4 mt-4 rounded-lg bgColor">
+                    <img src="assets/images/avatar-angela-gray.webp" alt="avatar-angela-gray" class="w-12">
+                    <p class="text-slate-500 text-sm">
+                        <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Angela Gray</a>
+                        followed you
+                        <span class="inline-block bg-red-500 rounded-full w-3 h-3 ml-2"></span><br>
+                        <span class="text-slate-400 w-80">5m ago</span>
+                    </p>
+                </div>
+                <div class="flex items-center gap-4 bg-[hsl(210,60%,98%)] p-4 mt-4 rounded-lg bgColor">
+                    <img src="assets/images/avatar-jacob-thompson.webp" alt="avatar-jacob-thompson" class="w-12">
+                    <p class="text-slate-500 text-sm">
+                        <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Jacob Thompson</a>
+                        has joined your group
+                        <a href="#" class="text-[hsl(219,85%,26%)] font-bold">Chess Club</a>
+                        <span class="inline-block bg-red-500 rounded-full w-3 h-3 ml-2"></span><br>
+                        <span class="text-slate-400 w-80">1 day ago</span>
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4 p-4 mt-4 rounded-lg">
+                    <div class="flex gap-4 items-center">
+                        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="avatar-rizky-hasanuddin"
+                            class="w-12">
+                        <p class="text-slate-500 text-sm">
+                            <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Rizky Hasanuddin</a>
+                            sent you a private message <br>
+                            <span class="text-slate-400 w-80">5 days ago</span>
+                        </p>
+                    </div>
+                    <div class="">
+                        <p
+                            class="rounded-lg border-[1px] p-4 ml-16 text-slate-600 hover:bg-[hsl(211,68%,94%)] cursor-pointer">
+                            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm
+                            alredy having lots of fun and improving my game.</p>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center gap-4 p-4 mt-4 rounded-lg">
+                    <div class="flex items-center gap-4">
+                        <img src="assets/images/avatar-kimberly-smith.webp" alt="avatar-kimberly-smith" class="w-12">
+                        <p class="text-slate-500 text-sm">
+                            <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Kimberly Smith</a>
+                            commented on your picture<br>
+                            <span class="text-slate-400 w-80">1 week ago</span>
+                        </p>
+                    </div>
+                    <img src="assets/images/image-chess.webp" alt="image-chess" class="w-10">
+                </div>
+                <div class="flex items-center gap-4 p-4 mt-4 rounded-lg">
+                    <img src="assets/images/avatar-nathan-peterson.webp" alt="avatar-nathan-peterson" class="w-12">
+                    <p class="text-slate-500 text-sm">
+                        <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Nathan Peterson</a>
+                        reacted to your recent post
+                        <a href="#" class="font-bold hover:text-[hsl(219,85%,26%)]">5 end-game strategies to increase
+                            your win rate</a><br>
+                        <span class="text-slate-400 w-80">2 weeks ago</span>
+                    </p>
+                </div>
+                <div class="flex items-center gap-4 p-4 mt-4 rounded-lg">
+                    <img src="assets/images/avatar-anna-kim.webp" alt="avatar-anna-kim" class="w-12">
+                    <p class="text-slate-500 text-sm">
+                        <a href="#" class="text-black font-bold hover:text-[hsl(219,85%,26%)]">Anna Kim</a>
+                        left the group
+                        <a href="#" class="text-[hsl(219,85%,26%)] font-bold">Chess Club</a><br>
+                        <span class="text-slate-400 w-80">2 weeks ago</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="m-4 text-[hsl(219,85%,26%)] text-sm font-semibold text-center">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            class="text-[#8e8593]">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/DexterDC" class="text-[#8e8593]" target="_blank">DexterDC</a>.
+    </footer>
+</body>
+<script src="js/app.js"></script>
+</html>

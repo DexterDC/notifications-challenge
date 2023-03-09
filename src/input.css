@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'PlusJ';
+    src: url('../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
